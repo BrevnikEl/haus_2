@@ -1,10 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        int oneBonusMile = 20;
-        int ticketPrice = 10000;
-
-
-        System.out.println(ticketPrice / 20 * 1);
+        int cost = 10_000;
+        int bonus = 20;
+        int mill = cost/ bonus;
+        System.out.println(mill);
 
 
     }
